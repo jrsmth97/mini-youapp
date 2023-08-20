@@ -45,6 +45,18 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+## Running the app with Docker
+
+```bash
+# build image
+$ docker-compose up -d --build
+
+# create and run container
+$ docker run -it --name mini-youapp-api-1 mini-youapp-api
+
+```
+
+
 ## Test
 
 ```bash
